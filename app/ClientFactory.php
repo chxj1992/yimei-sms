@@ -15,7 +15,7 @@ class ClientFactory
         /**
          * 网关地址
          */
-        $gwUrl = !empty($config['gwUrl']) ? $config['gwUrl'] : '';
+        $gwUrl = !empty($config['gwUrl']) ? $config['gwUrl'] : 'http://sdk4rptws.eucp.b2m.cn:8080/sdk/SDKService';
 
         /**
          * 序列号,请通过亿美销售人员获取
