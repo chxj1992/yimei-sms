@@ -2,6 +2,7 @@
   "name": "chxj1992/yimei-sms",
   "license": "MIT",
   "type": "project",
+  "description": "亿美短信（5.0）客户端",
   "repositories": [
     {"packagist": false},
     {
