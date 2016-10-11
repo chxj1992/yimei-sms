@@ -1,0 +1,10 @@
+*.swp
+*.patch
+.idea
+composer.lock
+vendor
+.env
+.project
+nbproject
+.nbproject
+phpunit.xml

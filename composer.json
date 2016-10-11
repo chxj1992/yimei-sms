@@ -1,0 +1,34 @@
+{
+  "name": "chxj1992/yimei-sms",
+  "license": "MIT",
+  "type": "project",
+  "repositories": [
+    {"packagist": false},
+    {
+      "type": "composer",
+      "url": "http://satis.dev.okapp.cc"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "vlucas/phpdotenv": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chxj1992\\YimeiSms\\App\\": "app/"
+    },
+    "files": [
+      "nusoaplib/nusoap.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Chxj1992\\YimeiSms\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ]
+  }
+}
