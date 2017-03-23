@@ -2,6 +2,14 @@
 
 亿美短信（5.0）客户端
 
+#### 安装
+
+```bash
+$ composer require chxj1992/yimei-sms:1.0
+```
+
+#### examples
+
 ```php
 
 <?php
